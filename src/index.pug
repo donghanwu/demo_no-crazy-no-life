@@ -1,0 +1,126 @@
+//- 最外層包住所有的元素，CSS使用background-attachment: fixed固定元素
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top
+  .container
+    .navbar-header
+      a.navbar-brand 只欠東瘋 
+    .navbar-collapse.collapse
+      .nav.navbar-nav.navbar-right
+        li
+          a(href="#section_intro") 簡介
+        li 
+          a(href="#section_choice") 方案選擇 
+        li 
+          a(href="#section_price") 價格
+        li
+          a(href="#section_aboutus") 關於我們 
+        li
+          a(href="#section_connectus") 聯絡我們
+
+header.jumbotron
+  .container-fluid 
+    .g(data-0="transform:translateY(-100px);opacity:0" data-280="transform:translateY(150px);opacity:1" ) 
+      .h1 只欠東瘋
+      hr  
+      .h4.text-muted 相遇，在那個最美麗的時刻
+
+//- 5比7，兩欄式分割，我們是誰?
+section#section_intro
+  .container
+    .row
+      .col-sm-5.img(data-300="transform:translateX(-300px)" data-800="transform:translateX(0px)")
+      .col-sm-7
+        .g(data-300="transform:translateY(200px);opacity:0" data-800="transform:translateY(0px);opacity:1 " )
+          h2 我們是誰？ 
+          h4 我們是『只欠東瘋』，在地深耕 25年，我們不斷蒐集花蓮在地旅遊資訊，並且提供及時且專業的旅遊行程安排與規劃，讓您不用煩惱規劃繁瑣的旅遊行程，只需選擇景點就能幫您規劃行程，輕鬆享受美好假期！  
+
+//- 4-4-4，三欄式分割，方案選擇
+section#section_choice
+  .container
+    .row
+      .col-md-4.col-sm-12.col.xs-12
+        .img_wrap(data-center-top="opacity:0.4" data-center="opacity:1")
+          img(src="https://cyberisland.teldap.tw/S/JQuNwhoFmTlwvlySsltwmTSlLH", alt="")
+        h2 旗艦方案
+        h4 最高品質、最專業的旅遊行程規劃與建議，專為帝王般氣質的你量身打造！
+      .col-md-4.col-sm-12.col.xs-12
+        .img_wrap(data-center-top="opacity:0.4" data-center="opacity:1")
+          img(src="https://cyberisland.teldap.tw/S/qAttzEDlcdputHLeYjSFtNlySIr", alt="")
+        h2 尊爵方案
+        h4 優秀的旅遊指南，適合尊爵不凡的你，不須勞心就能享受這美好的旅程！
+      .col-md-4.col-sm-12.col.xs-12
+        .img_wrap(data-center-top="opacity:0.4" data-center="opacity:1")        
+          img(src="https://cyberisland.teldap.tw/S/JQlBSQTduTlgyzySsltwmTSlZP", alt="")
+        //- img(src="https://cyberisland.teldap.tw/P/qzwTShzYtLs", alt="")
+        h2 經濟方案
+        h4 享受野外求生、自給自足的快感!偉大的冒險正等著你去用心發掘！
+
+// 價格
+section#section_price
+   .container-fluid
+     .row 
+       .col-sm-5
+         .g(data-0="transform: translateX(-200px)" data-2200="transform: translateX(20px)")
+           .col-sm-12   
+              img(src="", alt="")  
+              i.fa.fa-trophy
+              h2 旗艦方案
+              ul 
+                li Day1-四八高地→ 七星潭→ 翡翠谷→ 東大門夜市
+                li Day2-清水斷崖獨木舟→ 慶修院→ 花蓮文創園區
+                li Day3-太魯閣一日遊
+                li Day4-石梯坪→ 六十尖山 
+           .col-sm-12           
+              i.fa.fa-trophy
+              h2 尊爵方案
+              ul 
+                li Day1-四八高地→ 七星潭→ 翡翠谷→ 東大門夜市
+                li Day2-清水斷崖獨木舟→ 慶修院→ 花蓮文創園區
+                li Day3-太魯閣一日遊
+                li Day4-石梯坪→ 六十尖山              
+           .col-sm-12   
+              i.fa.fa-trophy
+              h2 經濟方案
+              ul 
+                li Day1-四八高地→ 七星潭→ 翡翠谷→ 東大門夜市
+                li Day2-清水斷崖獨木舟→ 慶修院→ 花蓮文創園區
+                li Day3-太魯閣一日遊
+                li Day4-石梯坪→ 六十尖山
+
+       .col-sm-7  
+
+//1-3-1式欄位劃分，關於我們
+section#section_aboutus
+  .container
+    .row 
+      .g(data-bottom="transform:translateY(200px);opacity:0" data-center="transform:translateY(0px);opacity:1" )
+        .col-sm-12
+          h2 關於我們
+        .col-sm-12
+          p.tx 只欠東瘋提供花蓮熱門景點,包括慕谷慕魚生態廊道,七星潭風景區,豐濱天空步道(親不知子斷崖),東華大學,雲山水自然生態農場,鯉魚潭,新城老街,清水斷崖,貨櫃屋，只欠東瘋特別為你挑選出到花蓮旅遊超高 CP值活動方案，讓你逛花蓮景點玩得盡興，住得滿意，現在立刻展開屬於你的花蓮旅遊！
+        .col-sm-12
+          .g(data-bottom-top="transform: scale(2);opacity:0" data-center="transform: scale(1);opacity:1 " )
+            .col-sm-4
+              i.fa.fa-clock-o
+              h4 營業時間
+            .col-sm-4 
+              i.fa.fa-map-marker
+              h4 規劃路線
+            .col-sm-4
+              i.fa.fa-facebook-official
+              h4 粉絲團
+
+  // google 地圖  
+  .container.map 
+    iframe(width='100%', height='650', src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.1103155596816!2d121.59759595080594!3d23.991881284394697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34689fb68187af2b%3A0x583c504b61ed4f7!2z6Iqx6JOu56uZ!5e0!3m2!1szh-TW!2stw!4v1606964247290!5m2!1szh-TW!2stw", allowfullscreen="",tabindex="0", aria-hidden="ture",style="border:0;margin:0px;")
+ 
+section.jumbotron#section_connectus
+  .container-fluid
+      .h2 聯絡我們
+      input.form-control(placeholder='Email')
+      button.btn.btn-danger 訂閱我
+
+footer.id_footer
+  footer Copyright © 2021 donghan.cc   
+
+  

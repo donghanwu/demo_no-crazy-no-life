@@ -1,0 +1,199 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: rgba(255, 255, 255, 0.8);
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: rgba(190, 156, 98, 0.9);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 900;
+  line-height: 60px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.h1 {
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 10px;
+}
+
+.h2 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.h4 {
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 16px;
+}
+
+h2 {
+  letter-spacing: 5px;
+  line-height: 40px;
+  color: rgba(190, 156, 98, 0.6);
+  text-align: center;
+}
+
+p.tx {
+  padding: 0px 100px;
+  line-height: 30px;
+  margin-top: -30px;
+}
+
+h3 {
+  letter-spacing: 15px;
+  line-height: 50px;
+}
+
+h4 {
+  text-align: justify;
+  line-height: 30px;
+  padding: 10px 50px;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+hr {
+  max-width: 50px;
+  border: 2px solid rgba(190, 156, 98, 0.9);
+  background-color: rgba(190, 156, 98, 0.9);
+}
+
+p {
+  text-align: justify;
+}
+
+header.jumbotron {
+  background-image: url(https://cyberisland.teldap.tw/S/JQcyChTFmYFhpzySsltwmTSleP);
+  padding: 400px 0px 500px 0px;
+  text-align: center;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+header.jumbotron .h1 {
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_intro {
+  padding-top: 100px;
+}
+section#section_intro .col-sm-5.img {
+  background-image: url(https://cdn.pixabay.com/photo/2019/11/12/07/45/taiwan-4620346_960_720.jpg);
+  height: 500px;
+  background-size: cover;
+}
+
+section#section_choice {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+section#section_choice img {
+  width: 150%;
+}
+section#section_choice .img_wrap {
+  height: 250px;
+  overflow: hidden;
+  background-size: cover;
+}
+section#section_choice .col-sm-5.img {
+  background-image: url(https://cdn.pixabay.com/photo/2017/10/03/17/41/mountain-view-2813432_960_720.jpg);
+  height: 350px;
+}
+
+section#section_price .container-fluid {
+  background-image: url("https://cdn.pixabay.com/photo/2016/01/11/01/14/taiwan-1132825_960_720.jpg");
+  background-size: cover;
+}
+section#section_price h2 {
+  color: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+}
+section#section_price .col-sm-5 {
+  padding: 50px 0px;
+  background-color: rgba(190, 156, 98, 0.9);
+  color: rgba(0, 0, 0, 0.5);
+}
+section#section_price .col-sm-5 i {
+  font-size: 40px;
+}
+
+section#section_aboutus {
+  letter-spacing: 10px;
+}
+section#section_aboutus .col-sm-5 {
+  padding: 0px;
+  background-size: cover;
+}
+section#section_aboutus .col-sm-4 {
+  text-align: center;
+}
+section#section_aboutus .col-sm-12 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+section#section_aboutus .col-sm-12 h4 {
+  text-align: center;
+  font-size: 25px;
+}
+section#section_aboutus .col-sm-12 i {
+  font-size: 40px;
+}
+section#section_aboutus .container.map {
+  padding: 50px 100px 100px 100px;
+}
+
+section.jumbotron#section_connectus {
+  background-image: url(https://cyberisland.teldap.tw/S/JQjOlVLtNMlgyzySsltwmTSldP);
+  background-size: cover;
+  padding: 200px;
+  margin-bottom: 0px;
+}
+section.jumbotron#section_connectus .container-fluid {
+  text-align: center;
+  margin-bottom: 0;
+}
+section.jumbotron#section_connectus .container-fluid input {
+  display: inline-block;
+  background-color: transparent;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  border: 2px solid white;
+}
+section.jumbotron#section_connectus .container-fluid .form-control::-webkit-input-placeholder {
+  color: white;
+}
+
+.id_footer {
+  background-color: #be9c62;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 60px;
+  height: 60px;
+}
+
+#skrollr_keyframes {
+  -skrollr-animation-name: animation1;
+}
